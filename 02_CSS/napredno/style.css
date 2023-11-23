@@ -1,0 +1,105 @@
+p {
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+/* kada vise elemenata imaju isto svojstvo */
+
+h3,h4 {
+    color: orange;
+}
+
+/*Pristupanje klasi*/
+.desno_poravnanje {
+    text-align: right;
+}
+
+.crveni_tekst {
+    color: red;
+}
+.drugi, #treci {
+    background-color: yellow;
+}
+/*Pristupanje id-u*/
+#treci {
+    font-style: italic;
+} 
+ /* prioritet selektora selektor elementa je < od selektora klase < id < inline < !important*/
+ li {
+    color: limegreen;
+ }
+
+ .stavka {
+    color: blue;
+ }
+
+ #prva_stavka {
+    color: orange;
+ }
+ #cetvrta_stavka{
+    color: brown !important;
+ }
+ #peta_stavka {
+    color: bisque !important;
+ }
+
+
+ /* Kombinator RAZMAK - svi potomci u divu koji su p tag */
+ div p {
+    color: aquamarine;
+ }
+
+ /* Kombinator  > - svi potomci u div tagu ciji du direktni potomci  */
+ div > p {
+    border: 1px solid green;
+ }
+
+
+ .pop>p {
+    border: 1px solid orange;
+ }
+
+ /*stilizacija linka*/
+ a {
+    color: lime;
+    text-decoration: none;
+ }
+
+ a:link {
+    color: blue;
+ }
+ a:visited {
+    color: rgb(98, 34, 34);
+ }
+ a:hover {
+    background-color: aquamarine;
+    color: rgb(212, 198, 226);
+ }
+
+ /*pseudo selektori svaki prvi potomak koji je tipa paragraf*/
+ p:first-child {
+    font-weight: bold;
+ }
+
+ /*svaki treci list item*/
+ li:nth-child(3n) {
+    font-weight: bold;
+ }
+
+ /*treci list item*/
+ li:nth-child(3) {
+    text-decoration: line-through;
+ }
+
+ li:hover {
+    background-color: aquamarine;
+ }
+
+
