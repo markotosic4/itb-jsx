@@ -1,0 +1,83 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+   /*  width: 100%;   umesto left:0 right:0   */ 
+   left: 0;
+   right: 0;
+    z-index: 1;
+}
+
+.topbar ul {
+overflow: hidden;
+list-style: none;
+background-color: aqua;
+}
+
+.topbar ul li {
+  float: left;
+  width: 25%;
+  
+  border: 1px solid red;
+  text-align: center;
+
+}
+
+.topbar ul li a {
+    padding: 10px 0; 
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.topbar ul li a:hover {
+    background-color: orange;
+}
+
+.ostatak {
+    position: relative;
+    top: 45px;
+    overflow: hidden;
+}
+
+.ostatak aside {
+    float: left;
+    width:30%;
+}
+
+.ostatak section {
+    float: left;
+    width: 70%;
+}
+
+/*Vertikalni meni*/
+.ostatak aside ul {
+    list-style: none;
+}
+
+.ostatak aside ul li {
+    border: 1px solid green;
+    text-align: center;
+    background-color: darkgreen;
+    
+}
+
+.ostatak ul li a {
+    color: white;
+    padding: 10px 0; 
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.ostatak ul li a:hover {
+    background-color: greenyellow;
+    color: black;
+}

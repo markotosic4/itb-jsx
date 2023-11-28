@@ -1,3 +1,5 @@
+
+
 a {
     /*border-style: solid;
     border-width: 3px;
@@ -25,6 +27,21 @@ p {
     
 }
 
+span {
+    background-color: brown;
+    color: white;
+    border: 3px solid blue;
+    padding: 30px;
+    width: 50%;
+    display: inline-block;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*
 BLOCK (zauzima citavu sirinu ekrana)
 p, div, h1,... ,h6, table
@@ -35,5 +52,5 @@ a, span, td...
 display svojstvo
  display:block; (ovim elementima mozete da podesavata width i height, redjaju se jedan ispod drugog)
  display:inline; (ovim elementima ne mozete da podesavate width i height, redjaju se jedan do drugog)
- display:inline-block; (ovim elementima ne mozete da podesavate width i height, redjaju se jedan do drugog
+ display:inline-block; (ovim elementima mozete da podesavate width i height, redjaju se jedan do drugog
 */
