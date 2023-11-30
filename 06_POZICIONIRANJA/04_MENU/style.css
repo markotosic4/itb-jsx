@@ -18,10 +18,11 @@ box-sizing: border-box;
 .topbar ul {
 overflow: hidden;
 list-style: none;
-background-color: aqua;
+
 }
 
 .topbar ul li {
+    background-color: aqua;
   float: left;
   width: 25%;
   
@@ -81,3 +82,17 @@ background-color: aqua;
     background-color: greenyellow;
     color: black;
 }
+
+/*  */
+.dropdown {
+    display: none;
+}
+
+.topbar li:nth-child(4):hover .dropdown {
+     display: block;
+}
+
+/* .ostatak li:nth-child(3) {
+     visibility: hidden; */  /* ZAUZIMA PROSTOR IAKO JE HIDDEN 
+    display: none; 
+} */
